@@ -1,0 +1,10 @@
+C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\bin\Debug\WinformsCalc.exe.config
+C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\bin\Debug\WinformsCalc.exe
+C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\bin\Debug\WinformsCalc.pdb
+C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.csproj.AssemblyReference.cache
+C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.Form1.resources
+C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.Properties.Resources.resources
+C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.csproj.GenerateResource.cache
+C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.csproj.CoreCompileInputs.cache
+C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.exe
+C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.pdb
