@@ -43,6 +43,8 @@
             this.btnEquals = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
             this.outputText = new System.Windows.Forms.TextBox();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // num1
@@ -222,12 +224,38 @@
             this.outputText.Size = new System.Drawing.Size(275, 62);
             this.outputText.TabIndex = 14;
             // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.Plum;
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Location = new System.Drawing.Point(184, 106);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(49, 49);
+            this.button14.TabIndex = 15;
+            this.button14.Text = "/";
+            this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.btnOperator_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Plum;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(184, 161);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(49, 49);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "%";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.btnOperator_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(300, 332);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button14);
             this.Controls.Add(this.outputText);
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnEquals);
@@ -245,6 +273,7 @@
             this.Controls.Add(this.num1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -267,6 +296,8 @@
         private System.Windows.Forms.Button btnEquals;
         private System.Windows.Forms.Button btnMinus;
         private System.Windows.Forms.TextBox outputText;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button1;
     }
 }
 
