@@ -13,7 +13,7 @@ namespace WinformsCalc
     public partial class Form1 : Form
     {
         private string currentInput = "";
-        private int currentResult = 0;
+        private double currentResult = 0;
         private char lastOperator;
 
         public Form1()
@@ -79,7 +79,7 @@ namespace WinformsCalc
         {
             if (!string.IsNullOrEmpty(currentInput))
             {
-                int inputNumber = int.Parse(currentInput);
+                double inputNumber = double.Parse(currentInput);
 
                 switch (lastOperator)
                 {
@@ -89,9 +89,15 @@ namespace WinformsCalc
                     case '-':
                         currentResult -= inputNumber;
                         break;
+                    case '/':
+                        currentResult /= inputNumber;
+                        break;
                     case '\0':
                         currentResult = inputNumber;
                         break;
+                    //case '%':
+                    //    currentResult %= inputNumber;
+                    //    break;
                 }
             }
         }
@@ -118,5 +124,8 @@ namespace WinformsCalc
         {
             //btnDivision_Click(sender, e);
         }
+
+       
+
     }
 }

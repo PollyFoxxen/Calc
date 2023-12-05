@@ -242,11 +242,12 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(184, 161);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(49, 49);
+            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.button1.Size = new System.Drawing.Size(49, 159);
             this.button1.TabIndex = 16;
-            this.button1.Text = "%";
+            this.button1.Text = "NANNA♥";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.btnOperator_Click);
             // 
             // Form1
             // 
