@@ -37,7 +37,6 @@ namespace WinformsCalc
             {
                 outputText.Text = currentInput;
             }
-            //outputText.Text = string.IsNullOrEmpty(currentInput) ? currentResult.ToString() : currentInput;
         }
 
         private void btnEquals_Click(object sender, EventArgs e)
@@ -95,9 +94,6 @@ namespace WinformsCalc
                     case '\0':
                         currentResult = inputNumber;
                         break;
-                    //case '%':
-                    //    currentResult %= inputNumber;
-                    //    break;
                 }
             }
         }
