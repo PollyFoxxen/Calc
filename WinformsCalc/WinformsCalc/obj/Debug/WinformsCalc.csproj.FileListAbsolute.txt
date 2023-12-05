@@ -8,3 +8,14 @@ C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\obj\Debug\WinformsCa
 C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.csproj.CoreCompileInputs.cache
 C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.exe
 C:\Programmering\Projects\Console\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.pdb
+C:\Users\nafn\source\repos\Calc\WinformsCalc\WinformsCalc\WinformsCalc\bin\Debug\WinformsCalc.exe.config
+C:\Users\nafn\source\repos\Calc\WinformsCalc\WinformsCalc\WinformsCalc\bin\Debug\WinformsCalc.exe
+C:\Users\nafn\source\repos\Calc\WinformsCalc\WinformsCalc\WinformsCalc\bin\Debug\WinformsCalc.pdb
+C:\Users\nafn\source\repos\Calc\WinformsCalc\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.csproj.AssemblyReference.cache
+C:\Users\nafn\source\repos\Calc\WinformsCalc\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.csproj.SuggestedBindingRedirects.cache
+C:\Users\nafn\source\repos\Calc\WinformsCalc\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.Form1.resources
+C:\Users\nafn\source\repos\Calc\WinformsCalc\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.Properties.Resources.resources
+C:\Users\nafn\source\repos\Calc\WinformsCalc\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.csproj.GenerateResource.cache
+C:\Users\nafn\source\repos\Calc\WinformsCalc\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.csproj.CoreCompileInputs.cache
+C:\Users\nafn\source\repos\Calc\WinformsCalc\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.exe
+C:\Users\nafn\source\repos\Calc\WinformsCalc\WinformsCalc\WinformsCalc\obj\Debug\WinformsCalc.pdb

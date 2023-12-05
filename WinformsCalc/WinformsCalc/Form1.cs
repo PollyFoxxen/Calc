@@ -48,6 +48,25 @@ namespace WinformsCalc
             UpdateDisplay();
         }
 
+        private void btnDivision_Click(object sender, EventArgs e)
+
+        {
+            Button button = (Button)sender;
+
+            if (!string.IsNullOrEmpty(currentInput))
+            {
+                PerformOperation();
+                lastOperator = button.Text[0];
+                currentInput = "";
+            }
+
+            else if (lastOperator != '\0')
+            {
+                lastOperator = button.Text[0];
+            }
+                UpdateDisplay();
+        }
+
         private void btnClear_click(object sender, EventArgs e)
         {
             currentInput = "";
@@ -97,7 +116,7 @@ namespace WinformsCalc
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            //btnDivision_Click(sender, e);
         }
     }
 }
