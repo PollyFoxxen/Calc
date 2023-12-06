@@ -15,6 +15,8 @@ namespace WinformsCalc
         private string currentInput = "";
         private double currentResult = 0;
         private char lastOperator;
+        private string lastOperator1 = "";
+        private string resultText;
 
         public Form1()
         {
@@ -30,10 +32,15 @@ namespace WinformsCalc
 
         private void UpdateDisplay()
         {
-            if (string.IsNullOrEmpty(currentInput))
+            if (!string.IsNullOrEmpty(resultText))
+            {
+                outputText.Text = resultText;
+            }
+            else if (string.IsNullOrEmpty(currentInput))
             {
                 outputText.Text = currentResult.ToString();
-            } else
+            }
+            else
             {
                 outputText.Text = currentInput;
             }
@@ -63,7 +70,7 @@ namespace WinformsCalc
             {
                 lastOperator = button.Text[0];
             }
-                UpdateDisplay();
+            UpdateDisplay();
         }
 
         private void btnClear_click(object sender, EventArgs e)
@@ -79,6 +86,7 @@ namespace WinformsCalc
             if (!string.IsNullOrEmpty(currentInput))
             {
                 double inputNumber = double.Parse(currentInput);
+
 
                 switch (lastOperator)
                 {
@@ -108,7 +116,7 @@ namespace WinformsCalc
                 lastOperator = button.Text[0];
                 currentInput = "";
             }
-            else if(lastOperator != '\0')
+            else if (lastOperator != '\0')
             {
                 lastOperator = button.Text[0];
             }
@@ -121,7 +129,20 @@ namespace WinformsCalc
             //btnDivision_Click(sender, e);
         }
 
-       
+        private void btnNanna_Click(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
 
+            if (lastOperator1 == "Nanna")
+            {
+                currentResult = 69;
+            }
+            else
+            {
+                lastOperator1 = button.Text;
+
+            }
+             UpdateDisplay();
+        }
     }
 }
