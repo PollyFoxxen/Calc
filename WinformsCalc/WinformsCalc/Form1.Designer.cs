@@ -44,7 +44,7 @@
             this.btnMinus = new System.Windows.Forms.Button();
             this.outputText = new System.Windows.Forms.TextBox();
             this.btnDivision = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Nanna = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // num1
@@ -236,18 +236,19 @@
             this.btnDivision.UseVisualStyleBackColor = false;
             this.btnDivision.Click += new System.EventHandler(this.btnDivision_Click);
             // 
-            // button1
+            // Nanna
             // 
-            this.button1.BackColor = System.Drawing.Color.Plum;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(184, 161);
-            this.button1.Name = "button1";
-            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.button1.Size = new System.Drawing.Size(49, 159);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "NANNA♥";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.UseVisualStyleBackColor = false;
+            this.Nanna.BackColor = System.Drawing.Color.Plum;
+            this.Nanna.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nanna.Location = new System.Drawing.Point(184, 161);
+            this.Nanna.Name = "Nanna";
+            this.Nanna.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Nanna.Size = new System.Drawing.Size(49, 159);
+            this.Nanna.TabIndex = 16;
+            this.Nanna.Text = "NANNA♥";
+            this.Nanna.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Nanna.UseVisualStyleBackColor = false;
+            this.Nanna.Click += new System.EventHandler(this.btnNanna_Click);
             // 
             // Form1
             // 
@@ -255,7 +256,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(300, 332);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Nanna);
             this.Controls.Add(this.btnDivision);
             this.Controls.Add(this.outputText);
             this.Controls.Add(this.btnMinus);
@@ -298,7 +299,7 @@
         private System.Windows.Forms.Button btnMinus;
         private System.Windows.Forms.TextBox outputText;
         private System.Windows.Forms.Button btnDivision;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Nanna;
     }
 }
 
