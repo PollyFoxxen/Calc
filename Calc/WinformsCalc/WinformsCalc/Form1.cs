@@ -109,7 +109,6 @@ namespace WinformsCalc
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //btnDivision_Click(sender, e);
         }
 
         private void btnNanna_Click(object sender, EventArgs e)
