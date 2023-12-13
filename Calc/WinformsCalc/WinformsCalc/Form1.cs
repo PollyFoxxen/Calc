@@ -114,7 +114,7 @@ namespace WinformsCalc
 
         private void btnNanna_Click(object sender, EventArgs e)
         {
-            outputText.Text = "Sejt, ik?🎄";
+            outputText.Text = "Sejt, ik?";
         }
     }
 }
